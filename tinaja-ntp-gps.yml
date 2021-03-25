@@ -1,0 +1,3 @@
+    - hosts: gsdDev
+      roles:
+         - { role: ~/.ansible/roles/tinajalabs.ntp_gps }
