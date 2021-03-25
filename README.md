@@ -1,6 +1,7 @@
 # ansible
 command and output 
-'''bash
+
+```console
 (base) ubuntu2004@ubuntu:~/ansible$ ansible-playbook rebootOLD.yml -i /etc/ansible/hosts/hosts.ini -b -c ssh
 
 PLAY [gsdDev] *********************************************************************************************************************************************************************************************
@@ -11,4 +12,4 @@ Ansible release will default to using the discovered platform python for this ho
 feature will be removed in version 2.12. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
 ok: [raspbberrypi-gsd-dev]
 ERROR! the field 'hosts' is required but was not set
-'''
+```
