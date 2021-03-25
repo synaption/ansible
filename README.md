@@ -1,6 +1,6 @@
 # ansible
 command and output 
-''' bash
+'''bash
 (base) ubuntu2004@ubuntu:~/ansible$ ansible-playbook rebootOLD.yml -i /etc/ansible/hosts/hosts.ini -b -c ssh
 
 PLAY [gsdDev] *********************************************************************************************************************************************************************************************
